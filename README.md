@@ -19,3 +19,6 @@ $ flask shell
 >>> admin = Employee(email="admin@admin.com",username="admin",password="admin2016",is_admin=True)
 >>> db.session.add(admin)
 >>> db.session.commit()
+
+
+mkvirtualenv -p /usr/bin/python2.7 dream-team
